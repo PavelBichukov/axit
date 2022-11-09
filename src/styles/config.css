@@ -1,0 +1,78 @@
+body{
+  font-size: 1.125rem;
+}
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+h4, dt, h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+
+p, dd{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.section-header {
+  text-align: center;
+}
+
+.section-header__tittle {
+  padding-bottom: 50px;
+}
+
+.section-header__separator {
+  width: 170px;
+  border: none;
+  height: 2px;
+  background-color: var(--main-orange);
+}
+
+.section-header__subtittle {
+  padding-bottom: 100px;
+  color: #86878b;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 32%;
+}
+.content-button{
+  border: none;
+  padding: 15px 85px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: var(--main-orange);
+  cursor: pointer;
+}
+.social-media-links {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-links__link:hover {
+  filter: invert(100%);
+}
