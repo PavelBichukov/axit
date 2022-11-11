@@ -1,0 +1,27 @@
+.card__text {
+  text-align: center;
+  color: #86878b;
+  background-color: #e2e2e2;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+.card__text::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 25px solid #e2e2e2;
+  position: relative;
+  top: 79px;
+  right: 150px;
+}
+.card__customer {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.card__customer-info {
+  padding: 35px 0px 0px 30px;
+  text-align: left;
+}
