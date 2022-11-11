@@ -10,10 +10,12 @@
 
 .tabs-panel__link:first-child {
   border: 1px solid #e5e5e5;
-  border-bottom: 0.4rem solid white;
+  border-bottom: none;
+  background-color: white;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  margin-bottom: -2px;
+  position: relative;
+  top: 1px;
 }
 
 .content-container {
