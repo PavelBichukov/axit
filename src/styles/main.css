@@ -13,12 +13,4 @@
 @import "customers.css";
 @import "main-footer.css";
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
 
-.axit-main {
-  flex: 1;
-}

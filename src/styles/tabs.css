@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 
-.tabs-panel__link:first-child {
+.tabs-panel__link--active {
   border: 1px solid #e5e5e5;
   border-bottom: none;
   background-color: white;
