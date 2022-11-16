@@ -85,6 +85,11 @@ li {
 .social-media-links__link:hover {
   filter: invert(100%);
 }
+.social-media-links{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
 
 .axit-main {
   margin-top: 50px;
