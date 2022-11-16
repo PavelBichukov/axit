@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-size: 1.125rem;
 }
@@ -75,4 +78,16 @@ li {
 }
 .social-media-links__link:hover {
   filter: invert(100%);
+}
+.axit-main{
+  margin-top: 50px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.axit-main {
+  flex: 1;
 }
