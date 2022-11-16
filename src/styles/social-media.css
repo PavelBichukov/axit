@@ -1,0 +1,14 @@
+.social-media {
+  background-color: #f8efef;
+}
+.social-media__container {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+.text-information {
+  width: 45%;
+}
+.text-information__text {
+  color: #86878b;
+}
