@@ -1,15 +1,17 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+
+body {
   font-size: 1.125rem;
 }
+
 h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
 
-h4, dt, h3 {
+h4,dt {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
@@ -21,8 +23,13 @@ h2 {
   font-weight: 400;
 }
 
+input {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
 
-p, dd{
+p,dd {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
@@ -31,6 +38,7 @@ li {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
+
 .section-header {
   text-align: center;
 }
@@ -40,9 +48,10 @@ li {
 }
 
 .section-header__separator {
+  display: inline-block;
   width: 170px;
   border: none;
-  height: 2px;
+  height: 1px;
   background-color: var(--main-orange);
 }
 
@@ -62,7 +71,8 @@ li {
   text-align: center;
   width: 32%;
 }
-.content-button{
+
+.content-button {
   border: none;
   padding: 15px 85px;
   color: white;
@@ -71,17 +81,15 @@ li {
   background-color: var(--main-orange);
   cursor: pointer;
 }
-.social-media-links {
-  width: 55%;
-  display: flex;
-  justify-content: space-between;
-}
+
 .social-media-links__link:hover {
   filter: invert(100%);
 }
-.axit-main{
+
+.axit-main {
   margin-top: 50px;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
