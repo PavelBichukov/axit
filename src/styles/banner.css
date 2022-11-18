@@ -1,7 +1,6 @@
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/images/bannerbg.jpg);
-  background-position: 50% 100%;
-  background-size: 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/images/bannerbg.jpg) 50% 100%/cover no-repeat;
+
 }
 .banner__logo {
   padding-bottom: 40px;
