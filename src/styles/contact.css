@@ -41,7 +41,6 @@
     resize: none;
 }
 .contact__form-message:focus{
-    /* outline: 1px solid  #bdbdbd; */
     box-shadow: 0px 0px 6px 4px rgba(34, 60, 80, 0.2) inset;;
     color: black;
     font-weight: 700;
