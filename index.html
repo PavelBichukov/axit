@@ -407,12 +407,12 @@
             <form id="contact-form" action="#" class="contact__form">
               <div class="contact__login-group">
                 <input placeholder="Name" class="contact__form-input" name="name" type="text" >
-                <input placeholder="Emaik" class="contact__form-input" name="email" type="email" >
+                <input placeholder="Email" class="contact__form-input" name="email" type="email" >
                 <input placeholder="Password" class="contact__form-input" name="password" type="password" >
               </div>
-              <textarea placeholder="Message" class="contact__form-message" name="message" cols="30" rows="10" ></textarea>
+              <textarea placeholder="Message" class="contact__form-message" name="message" cols="30" rows="10" maxlength="100" ></textarea>
             </form>
-            <button form="contact-form" class="content-button" type="submit">Send Message</button>
+            <button form="contact-form" class="content-button content-button--contact" type="submit">Send Message</button>
           </div>
         </section>
       </main>
