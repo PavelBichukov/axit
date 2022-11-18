@@ -1,0 +1,41 @@
+.design {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/images/sylishbg.png) 50% 100%/cover no-repeat ;
+}
+
+.design__container {
+    display: flex;
+    flex-direction: column;
+    opacity: 100%;
+    padding-top: 90px;
+}
+
+.section-header__tittle--white {
+    color: #ffffff;
+}
+
+.section-header__separator--white {
+    background-color: #ffffff;
+}
+
+.section-header__subtittle--white {
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+.content-button--transparent {
+    padding: 15px 150px;
+    background: none;
+    border: 2px solid #ffffff;
+    align-self: center;
+}
+
+.content-button--transparent:hover {
+    border: 2px solid var(--main-orange);
+    color: var(--main-orange);
+    background: none;
+}
+
+.content-button--transparent:active {
+    background-color: #ab4949;
+    color: #ffffff;
+}
