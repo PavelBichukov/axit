@@ -3,10 +3,11 @@
 }
 
 .design__container {
+    padding-top: 90px;
+}
+.design__flex{
     display: flex;
     flex-direction: column;
-    opacity: 100%;
-    padding-top: 90px;
 }
 
 .section-header__tittle--white {
