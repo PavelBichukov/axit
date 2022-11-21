@@ -46,6 +46,10 @@ li {
 .section-header__tittle {
   margin-bottom: 1.38em;
 }
+.section-header__tittle--white {
+  color: #ffffff;
+}
+
 
 .section-header__separator {
   display: inline-block;
@@ -54,10 +58,17 @@ li {
   height: 1px;
   background-color: var(--main-orange);
 }
+.section-header__separator--white {
+  background-color: #ffffff;
+}
 
 .section-header__subtittle {
   margin-bottom: 6.66em;
   color: #86878b;
+}
+.section-header__subtittle--white {
+  margin-bottom: 40px;
+  color: #ffffff;
 }
 
 .card-container {
