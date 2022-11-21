@@ -9,7 +9,7 @@
 .contact__form {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .contact__login-group {
     display: flex;
@@ -48,6 +48,6 @@
     border-bottom: 1px solid white;
 }
 .content-button--contact {
-    padding: 15px 133px;
+    padding: 0.83em 7.38em;
     align-self: center;
 }
