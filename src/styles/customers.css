@@ -26,6 +26,13 @@
   text-align: left;
 }
 
+
+@media (max-width:1024px){
+  .card__text::after{
+    top: 4.2rem;
+    right: 6rem;
+  }
+}
 @media (max-width: 767px){
   .card__text::after{
     top: 4.4rem;
@@ -33,11 +40,5 @@
   }
   .card__text{
     margin-bottom: 2rem;
-  }
-}
-@media (max-width:1024px){
-  .card__text::after{
-    top: 4.2rem;
-    right: 6rem;
   }
 }
