@@ -99,5 +99,9 @@
   }
   .banner__article-subtittle{
     padding-bottom: 0px;
+    font-size: 0.875rem;
+  }
+  .banner__article-tittle{
+    font-size: 2.25rem;
   }
 }
