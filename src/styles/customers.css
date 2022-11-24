@@ -41,4 +41,27 @@
   .card__text{
     margin-bottom: 2rem;
   }
+  .card__customer{
+    position: relative;
+  }
+  .customers__card1,
+  .customers__card2,
+  .customers__card3{
+    position: relative;
+    margin-bottom: 3rem;
+  }
+  .customers__card1,
+  .customers__card3{
+    display: none;
+  }
+  .customers__card2::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url(../assets/images/dots.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 11rem;
+  }
 }
