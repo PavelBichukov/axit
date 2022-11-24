@@ -26,3 +26,9 @@
     background-color: #ab4949;
     color: #ffffff;
 }
+@media (max-width: 767px){
+    .content-button--transparent{
+        align-self: stretch;
+        padding: 0.83em 6em;
+    }
+}

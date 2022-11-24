@@ -46,6 +46,7 @@
 }
 .banner__form {
   flex-basis: calc(100% / 12 * 5 - 1rem);
+  margin: 0.5rem;
   display: flex;
   flex-direction: column;
 }
