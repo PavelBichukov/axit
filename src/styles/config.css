@@ -6,6 +6,12 @@ body {
   font-size: 1.125rem;
 }
 
+@media (max-width: 1024px){
+  body {
+    font-size: 0.875rem;
+  }
+}
+
 h5 {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -73,15 +79,17 @@ li {
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: -0.5rem;
 }
 
 .card {
+  flex-basis: calc(100% / 12 * 4 - 1rem);
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 32%;
-  margin-bottom: 0.4rem;
+  margin: 0.5rem;
 }
 
 .content-button {
@@ -98,7 +106,7 @@ li {
   filter: invert(100%);
 }
 .social-media-links{
-  width: 55%;
+  flex-basis: calc(100% / 12 *7 );
   display: flex;
   justify-content: space-between;
 }
@@ -115,4 +123,27 @@ li {
 
 .axit-main {
   flex: 1;
+}
+
+@media (max-width:767px){
+  .card{
+    flex-basis: calc(100% - 1rem);
+  }
+  .social-media-links__link{
+    transform: scale(0.5);
+  }
+  .content-button{
+    font-size: 1.125rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 0.875rem;
+  }
+}
+@media (max-width:1024px){
+  .social-media-links__link{
+    transform: scale(0.8);
+  }
 }

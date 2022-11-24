@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 .content-button--transparent {
-    padding: 15px 150px;
+    padding: 0.83em 7.38em;
     background: none;
     border: 2px solid #ffffff;
     align-self: center;

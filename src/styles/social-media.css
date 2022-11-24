@@ -9,8 +9,19 @@
   align-items: center;
 }
 .text-information {
-  width: 45%;
+  flex-basis: calc(100% / 12 *5 );
 }
 .text-information__text {
   color: #86878b;
+}
+
+
+@media (max-width: 767px){
+  .social-media__flex{
+    flex-direction: column;
+  }
+  .text-information{
+    text-align: center;
+    padding-bottom: 2rem;
+  }
 }
