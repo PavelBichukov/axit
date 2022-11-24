@@ -17,3 +17,9 @@
     color: #ffffff79;
     padding-top: 20px;
 }
+
+@media (max-width:767px){
+    .main-footer__social-media-links{
+        width: 100%;
+    }
+}

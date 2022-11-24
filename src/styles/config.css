@@ -125,6 +125,12 @@ li {
   flex: 1;
 }
 
+
+@media (max-width:1024px){
+  .social-media-links__link{
+    transform: scale(0.8);
+  }
+}
 @media (max-width:767px){
   .card{
     flex-basis: calc(100% - 1rem);
@@ -140,10 +146,5 @@ li {
   }
   h4{
     font-size: 0.875rem;
-  }
-}
-@media (max-width:1024px){
-  .social-media-links__link{
-    transform: scale(0.8);
   }
 }
