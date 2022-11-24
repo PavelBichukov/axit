@@ -3,25 +3,12 @@
 }
 
 .design__container {
-    display: flex;
-    flex-direction: column;
-    opacity: 100%;
     padding-top: 90px;
 }
-
-.section-header__tittle--white {
-    color: #ffffff;
+.design__flex{
+    display: flex;
+    flex-direction: column;
 }
-
-.section-header__separator--white {
-    background-color: #ffffff;
-}
-
-.section-header__subtittle--white {
-    padding-bottom: 40px;
-    color: #ffffff;
-}
-
 .content-button--transparent {
     padding: 15px 150px;
     background: none;

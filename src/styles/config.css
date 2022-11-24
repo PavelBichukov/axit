@@ -23,7 +23,7 @@ h2 {
   font-weight: 400;
 }
 
-input {
+input, textarea {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -44,8 +44,12 @@ li {
 }
 
 .section-header__tittle {
-  padding-bottom: 50px;
+  margin-bottom: 1.38em;
 }
+.section-header__tittle--white {
+  color: #ffffff;
+}
+
 
 .section-header__separator {
   display: inline-block;
@@ -54,10 +58,17 @@ li {
   height: 1px;
   background-color: var(--main-orange);
 }
+.section-header__separator--white {
+  background-color: #ffffff;
+}
 
 .section-header__subtittle {
-  padding-bottom: 100px;
+  margin-bottom: 6.66em;
   color: #86878b;
+}
+.section-header__subtittle--white {
+  margin-bottom: 40px;
+  color: #ffffff;
 }
 
 .card-container {
@@ -70,11 +81,12 @@ li {
   flex-direction: column;
   text-align: center;
   width: 32%;
+  margin-bottom: 0.4rem;
 }
 
 .content-button {
   border: none;
-  padding: 15px 85px;
+  padding: 0.83em 4.72em;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;

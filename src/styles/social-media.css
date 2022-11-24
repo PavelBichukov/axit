@@ -2,8 +2,10 @@
   background-color: #f8efef;
 }
 .social-media__container {
-  display: flex;
   padding: 15px;
+}
+.social-media__flex{
+  display: flex;
   align-items: center;
 }
 .text-information {
